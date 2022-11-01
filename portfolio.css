@@ -3,6 +3,7 @@
     --description-font: 'Poor Story', cursive;
 }
 
+
 .hero {
     text-align: center;
     font-family: var(--main-font);
@@ -13,7 +14,11 @@
     margin-top: 50px;
 }
 
-.independence {
+.container-one img {
+     margin-right: 100px;
+}
+
+.container-two img {
     margin-left: 630px;
     margin-top: -250px;
 }
