@@ -47,6 +47,51 @@ button a {
  color: black;
 }
 
+@media (max-width:915px) {
+    .hero {
+     text-align: left; 
+     }
+
+    .description {
+      display: none;
+          }
+
+     .container-one img {
+        margin-left: -287px;
+        margin-top: 10px;
+        max-width: 150px;
+     }
+   
+
+    .container-one div .buttons {
+        margin-top: 20px;
+        margin-left: -150px;
+    }
+
+    .container-two img {
+        margin-left: -287px;
+        max-width: 230px;
+        margin-top: -343px;
+    }
+
+    .container-two div .buttons {
+        margin-left: 250px;
+        margin-top: 170px;
+        max-width: 50px;
+    }
+
+    .container-three img {
+        max-width: 230px;
+        margin-left: -267px;
+        margin-top: -100px;
+    }
+    
+
+    .container-three div .buttons {
+        margin-top: -130px;
+        margin-left: -18px;
+}
+}
 
 
 
