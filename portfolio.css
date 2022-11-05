@@ -52,6 +52,16 @@ button a {
      font-size: 1.5rem;
 }
 
+h1 {
+    font-family: var(--main-font);
+}
+
+.img-fluid {
+    margin-left: 170px;
+    margin-top: 70px;
+}
+
+
 @media (max-width:915px) {
     .hero {
      text-align: left; 
@@ -95,6 +105,10 @@ button a {
     .container-three div .buttons {
         margin-top: -130px;
         margin-left: -18px;
+}
+
+    .container .col-md-6{
+     width: 200px;
 }
 
 }
