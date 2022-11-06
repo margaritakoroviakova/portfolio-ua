@@ -112,49 +112,30 @@ nav a.active {
 
 @media (max-width:900px) {
     .hero {
-     text-align: left; 
-     }
+      text-align: left;
+ }
 
     .description {
-      display: none;
-          }
-
-     .container-one img {
-        margin-left: -287px;
-        margin-top: 10px;
-        max-width: 150px;
-     }
-   
-
-    .container-one div .buttons {
-        margin-top: 20px;
-        margin-left: -150px;
-    }
-
-    .container-two img {
-        margin-left: -287px;
-        max-width: 230px;
-        margin-top: -343px;
-    }
-
-    .container-two div .buttons {
-        margin-left: 250px;
-        margin-top: 170px;
-        max-width: 50px;
-    }
-
-    .container-three img {
-        max-width: 230px;
-        margin-left: -267px;
-        margin-top: -100px;
-    }
-    
-
-    .container-three div .buttons {
-        margin-top: -130px;
-        margin-left: -18px;
+    display: none;
+ }
+       
+    .container-one img {
+    max-width: 400px;
+    margin-left: -280px;
+    margin-top: 10px;
 }
 
+.container-two img {
+    margin-left: -450px;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.container-three img {
+    margin-left: -270px;
+    width: 430px;
+}
+ 
     .container .col-md-6{
      width: 200px;
      margin-left: -7px;
