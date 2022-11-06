@@ -61,6 +61,20 @@ h1 {
     margin-top: 70px;
 }
 
+.social-networks {
+    font-family: var(--main-font);
+    font-size: 23px;
+}
+
+.social-networks a {
+    color: blue;
+    text-decoration: none;
+}
+
+.social-networks a:hover {
+    color: black;
+}
+
 
 @media (max-width:900px) {
     .hero {
@@ -113,7 +127,7 @@ h1 {
 }
 
     h1 {
-     margin-left: 100px;
+     text-align: center;
     }
 
     .container h5 {
