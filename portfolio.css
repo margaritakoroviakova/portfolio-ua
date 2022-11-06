@@ -67,11 +67,23 @@ h1 {
 }
 
 .social-networks a {
-    color: blue;
+    color: #0057b8;
     text-decoration: none;
 }
 
 .social-networks a:hover {
+    color: black;
+}
+
+footer {
+   background-color: #ffd700;
+}
+
+h4 {
+    font-family: var(--main-font);
+}
+
+.icons a, .icons a:hover{
     color: black;
 }
 
@@ -94,7 +106,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: blue;
+    color: #0057b8;
 }
 
 
