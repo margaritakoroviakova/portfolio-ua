@@ -62,7 +62,7 @@ h1 {
 }
 
 
-@media (max-width:915px) {
+@media (max-width:900px) {
     .hero {
      text-align: left; 
      }
@@ -109,7 +109,16 @@ h1 {
 
     .container .col-md-6{
      width: 200px;
+     margin-left: -7px;
 }
+
+    h1 {
+     margin-left: 100px;
+    }
+
+    .container h5 {
+        margin-left: 200px;
+    }
 
 }
 
