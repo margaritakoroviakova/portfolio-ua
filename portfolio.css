@@ -9,29 +9,6 @@
     font-family: var(--main-font);
 }
 
-.container-one {
-    margin-left: 290px;
-    margin-top: 50px;
-}
-
-.container-one img {
-     margin-right: 100px;
-}
-
-.container-two img {
-    margin-left: 630px;
-    margin-top: -250px;
-}
-
-.container-two .col-6 {
-    margin-top: 80px;
-    margin-left: 290px;
-}
-
-.container-three {
-    margin-left: 270px;
-    margin-top: 100px;
-}
 
 .col-6 {
     font-family: var(--description-font);
@@ -47,13 +24,20 @@ button a {
  color: black;
 }
 
-.col-md-6 {
-    font-family: var(--description-font);
-     font-size: 1.5rem;
-}
 
 h1 {
     font-family: var(--main-font);
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    text-align: center;
+    font-family: var(--description-font);
 }
 
 .img-fluid {
@@ -118,10 +102,6 @@ nav a.active {
 @media (max-width:900px) {
     .hero {
       text-align: left;
- }
-
-    .description {
-    display: none;
  }
        
     .container-one img {
