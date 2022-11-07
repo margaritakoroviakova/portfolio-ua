@@ -103,11 +103,5 @@ nav a.active {
     text-align: center;
 }
 
-@media (max-width:900px) {
-    nav ul {
-        text-align: center;
-    }
-}
-
 
 
