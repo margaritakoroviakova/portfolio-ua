@@ -25,11 +25,36 @@
     />
     <script src="https://kit.fontawesome.com/f834179b81.js" crossorigin="anonymous"></script>
     <title>A little gallery</title>
+    <style>
+      @media(max-width:900px) {
+        h1 {
+     text-align: center;
+    }
+
+    .container h5 {
+        margin-left: 200px;
+    }
+
+    .container .row {
+      flex-direction: column;
+      margin-left: -100px;
+    }
+
+    h5 {
+      display: none;
+    }
+
+    nav img {
+      width: 80px;
+    }
+
+      }
+    </style>
   </head>
   <body>
     <nav class="d-flex justify-content-between">
     <img class="ms-1" src="photos/main-logo.jpg" alt="The Voice of Ukraine Logo" width="100px">
-    <ul class="mt-3 me-2">
+    <ul class="mt-3 me-5">
       <li><a href="index.html" title="Homepage"> Home </a></li>
       <li><a href="about.html" title="About us">About us</a></li>
       <li><a class="active" title="Moments gallery" href="work.html">Gallery </a></li>
@@ -38,16 +63,16 @@
   </nav>
     <h1 class="text-center">Take a look </br> at our moments...</h1>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+      <div class="row d-flex">
+        <div class="col-6">
           <img class="img-fluid" src="photos/lights.jpg" alt="Demonstration photo" width="300px" />
           <h5 class="text-center">Lights for Ukraine</h5>
         </div>
-        <div class="col-md-6">
+        <div class="col-6">
           <img class="img-fluid" src="photos/sun.jpg" alt="Demonstration photo" width="300px" />
           <h5 class="text-center">The sun helps us</h5>
         </div>
-        <div class="col-md-6">
+        <div class="col-6">
           <img
             class="img-fluid"
             src="photos/olenivkatwo.jpg"
@@ -56,7 +81,7 @@
           />
           <h5 class="text-center">One more Olenivka protest</h5>
         </div>
-        <div class="col-md-6">
+        <div class="col-6">
           <img class="img-fluid" src="photos/glory.jpg" alt="Demonstration photo" width="300px" />
           <h5 class="text-center">Glory to Ukraine!</h5>
         </div>

@@ -29,6 +29,10 @@ h1 {
     font-family: var(--main-font);
 }
 
+h5 {
+    font-family: var(--description-font);
+}
+
 .image-container {
     width: 100%;
     display: flex;
@@ -100,44 +104,6 @@ nav a.active {
 }
 
 @media (max-width:900px) {
-    .hero {
-      text-align: left;
- }
-       
-    .container-one img {
-    max-width: 400px;
-    margin-left: -280px;
-    margin-top: 10px;
-}
-
-.container-two img {
-    margin-left: -450px;
-    margin-top: 10px;
-    width: 500px;
-}
-
-.container-three img {
-    margin-left: -270px;
-    width: 430px;
-}
- 
-    .container .col-md-6{
-     width: 200px;
-     margin-left: -7px;
-}
-
-    h1 {
-     text-align: center;
-    }
-
-    .container h5 {
-        margin-left: 200px;
-    }
-    
-    nav img {
-        display: none;
-    }
-
     nav ul {
         text-align: center;
     }
